@@ -6,33 +6,39 @@
 
 **Machine Learning Framework for Stage-Specific Transcriptomic Biomarker Discovery in Skin Cancer**
 
-<a href="./Stage_Specific_Biomarker_Pipeline/README.md">
-<img src="https://img.shields.io/badge/Pipeline%20Documentation-2563EB?style=for-the-badge" alt="Pipeline Documentation">
+<p align="center">
+
+<a href="https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/tree/main/Stage_Specific_Biomarker_Pipeline">
+<img src="https://img.shields.io/badge/Pipeline-Documentation-blue?style=for-the-badge&logo=github" />
 </a>
 
 <a href="https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/releases/latest">
-<img src="https://img.shields.io/badge/Dataset%20Release-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="Dataset Release">
+<img src="https://img.shields.io/badge/Dataset-Release-success?style=for-the-badge&logo=github" />
 </a>
 
-<a href="./Supplementary-Tables/README.md">
-<img src="https://img.shields.io/badge/Supplementary%20Tables-B59B00?style=for-the-badge" alt="Supplementary Tables">
+<a href="https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/tree/main/Supplementary-Tables">
+<img src="https://img.shields.io/badge/Supplementary-Materials-orange?style=for-the-badge&logo=github" />
 </a>
 
-<a href="./LICENSE">
-<img src="https://img.shields.io/badge/License-MIT-181717?style=for-the-badge&logo=github&logoColor=white" alt="License">
-</a>
-
-</div>
-
-<p align="center">
-This repository accompanies the study <strong>Stage-Specific Transcriptomic Biomarker Discovery in Skin Cancer Using Machine Learning and Statistical Approaches</strong>.
 </p>
 
-<div align="center">
+This repository accompanies the study **Stage-Specific Transcriptomic Biomarker Discovery in Skin Cancer Using Machine Learning and Statistical Approaches**.
 
-[Overview](#overview) • [Publication](#associated-publication) • [Quick Facts](#quick-facts) • [Repository Structure](#repository-structure) • [Dataset](#dataset-availability) • [Pipeline](#pipeline-documentation) • [Results](#repository-outputs) • [Citation](#citation) • [License](#license) • [Contact](#contact)
+<p align="center">
 
-</div>
+<a href="#overview">Overview</a> •
+<a href="#associated-publication">Publication</a> •
+<a href="#quick-facts">Quick Facts</a> •
+<a href="#repository-structure">Repository Structure</a> •
+<a href="#dataset-availability">Dataset</a> •
+<a href="#pipeline-documentation">Pipeline</a> •
+<a href="#supplementary-material">Supplementary</a> •
+<a href="#repository-outputs">Results</a> •
+<a href="#citation">Citation</a> •
+<a href="#license">License</a> •
+<a href="#contact">Contact</a>
+
+</p>
 
 ---
 
@@ -86,29 +92,22 @@ The strongest supervised performance was observed for **Stage III vs Stage IV**,
 | Dataset distribution | GitHub Releases |
 
 ---
+---
 
-Stage-Specific-Biomarkers-Skin-Cancer-ML/
-│
-├── Data/
-│ └── README.md
-│
-├── Stage_Specific_Biomarker_Pipeline/
-│ ├── Pictures/
-│ └── README.md
-│
-├── Supplementary-Tables/
-│ └── README.md
-│
-├── LICENSE
-└── README.md
+## Repository Structure
 
-| Folder | Description |
-|--------|-------------|
-| `Data/` | Dataset information, metadata, and download instructions for the GitHub Release dataset |
-| `Stage_Specific_Biomarker_Pipeline/` | Complete pipeline documentation, workflow description, pseudocode, installation guide, required software, and pipeline figures |
-| `Supplementary-Tables/` | Supplementary tables, model outputs, manuscript figures, biomarker summaries, and supporting material |
-| `LICENSE` | Repository license |
-| `README.md` | Main project documentation |
+The repository is organized into dedicated modules for the dataset, computational workflow, supplementary materials, and project documentation. This structure separates data resources from methodological documentation and supporting files, improving reproducibility and ease of navigation.
+
+
+## Repository Structure
+
+| Directory | Description |
+|-----------|-------------|
+| **[`Data/`](https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/tree/main/Data)** | Dataset description, metadata, download instructions, and links to the GitHub Release containing the complete TCGA-SKCM expression dataset. |
+| **[`Stage_Specific_Biomarker_Pipeline/`](https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/tree/main/Stage_Specific_Biomarker_Pipeline)** | Documentation of the complete computational workflow, including installation instructions, software requirements, preprocessing pipeline, pseudocode, execution workflow, and pipeline figures. |
+| **[`Supplementary-Tables/`](https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/tree/main/Supplementary-Tables)** | Supplementary tables, complete model outputs, publication figures, biomarker summaries, and additional supporting materials associated with the manuscript. |
+| **[`LICENSE`](https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/blob/main/LICENSE)** | License governing the use and distribution of the repository. |
+
 
 ---
 
@@ -136,7 +135,7 @@ The dataset contains the normalized gene-expression matrix used throughout the c
 
 The complete computational workflow is documented in:
 
-👉 [**`Stage_Specific_Biomarker_Pipeline/README.md`**](./Stage_Specific_Biomarker_Pipeline/README.md)
+👉 [**`Stage_Specific_Biomarker_Pipeline/README.md`**](./Stage_Specific_Biomarker_Pipeline/)
 
 The documentation includes:
 
@@ -293,9 +292,38 @@ Abolfazl Ghasemi
 Email: [abolfazlghasemi55@gmail.com](mailto:abolfazlghasemi55@gmail.com)
 
 ---
+## Contents
 
-<p align="center">Made for reproducible transcriptomic biomarker discovery using machine learning.</p>
+| File | Description |
+|------|-------------|
+| **Supplementary Table S1.xlsx** | Seven-sheet supplementary workbook presenting comprehensive functional enrichment analyses for the identified stage-specific biomarkers, including **GO Biological Process, KEGG Pathway, Reactome Pathway, WikiPathways, DisGeNET Disease Associations, HuBMAP Tissue Mapping, and DrugAtlas** analyses. |
+| **Models-Output.xlsx** | Consolidated machine learning outputs, including model performance metrics and feature importance results. |
+| **Article Pictures.pdf** | Figures prepared for the manuscript, including workflow diagrams, pathway analyses, enrichment plots, and related visualizations. |
 
-<p align="center"><a href="#readme-top">Back to top</a></p>
+---
 
-## Repository Structure
+## Purpose
+
+The supplementary files provide additional information that complements the main manuscript, including:
+
+- Complete model outputs
+- Supplementary biomarker rankings
+- Performance summaries
+- Supporting figures
+- Additional analyses not included in the main text
+
+---
+
+## Related Resources
+
+- ⚙️ **Pipeline Documentation**  
+  https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/tree/main/Stage_Specific_Biomarker_Pipeline
+
+- 📦 **Dataset Release**  
+  https://github.com/abolfazlghasemi83/Stage-Specific-Biomarkers-Skin-Cancer-ML/releases/latest
+
+---
+
+<p align="center">
+This directory contains the supplementary material supporting the manuscript.
+</p>
