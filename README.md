@@ -157,34 +157,42 @@ Pipeline figures are stored in:
 👉 [**`Stage_Specific_Biomarker_Pipeline/Pictures/`**](./Stage_Specific_Biomarker_Pipeline/Pictures/)
 
 ### Study Workflow
-TCGA-SKCM Dataset
-│
-▼
-Data Cleaning
-│
-▼
-Normalization
-│
-▼
-Dimensionality Reduction
-(PCA / Factor Analysis)
-│
-▼
-35 Machine Learning
-and Statistical Models
-│
-▼
-Feature Importance
-│
-▼
-Top Biomarker Selection
-│
-▼
-Model Comparison
-│
-▼
-Stage-Specific Biomarker Discovery
 
+```text
+TCGA-SKCM Gene Expression Dataset
+                │
+                ▼
+       Clinical Data Integration
+                │
+                ▼
+        Data Preprocessing
+        • Quality Control
+        • Missing Value Handling
+        • Normalization
+                │
+                ▼
+     Dimensionality Reduction
+      (PCA / Factor Analysis)
+                │
+                ▼
+      Feature Selection & Ranking
+                │
+                ▼
+  35 Machine Learning & Statistical Models
+                │
+                ▼
+ Feature Importance Estimation
+                │
+                ▼
+ Top Biomarker Identification
+                │
+                ▼
+ Comparative Model Evaluation
+ (Accuracy, Precision, Importance)
+                │
+                ▼
+ Stage-Specific Biomarker Discovery
+```
 ---
 
 ## Repository Outputs
