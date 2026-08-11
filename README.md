@@ -211,7 +211,7 @@ TCGA-SKCM Gene Expression Dataset
 
 The strongest supervised classification performance was observed for:
 
-- **Stage III → Stage IV** (Accuracy = 0.87, Precision = 0.760)
+- **Stage III → Stage IV** (Accuracy = 0.862, Precision = 0.760)
 
 Frequently identified biomarkers include:
 
